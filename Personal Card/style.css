@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f4f6;
+}
+.card{
+    max-width: 370px;
+    width: 100%;
+    height: 450px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: #ffff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.topbar{
+    background-color: #3c6adc;
+    border-radius: 12px 12px 0 0;
+    height: 120px;
+}
+
+.user-img{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    color: #ffff;
+}
+
+.title{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text{
+    text-align: center;
+    font-weight: 400;
+}
+
+.social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social{
+    margin: 20px 10px;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#facebook{
+    background-color: #4065aa;
+    color: #ffff;
+}
+
+#twitter{
+    background-color: #000000;
+    color: #ffff;
+}
+
+#instagram{
+    background-color: #d12c65;
+    color: #ffff;
+}
+
+#youtube{
+    background-color: #ed0104;
+    color: #fff;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button input{
+    margin: 25px 15px;
+    background-color: #3c6adc;
+    color: #ffff;
+    font-size: 16px;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 18px;
+    cursor: pointer;
+}
+
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    margin: 3px;
+}
+
+#feed{
+    margin: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    word-spacing: 10px;
+    height: 40px;
+    width: 70px;
+    cursor: pointer;
+    border-radius: 20px;
+    background-color: #cacaca;
+}
