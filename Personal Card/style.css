@@ -10,7 +10,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #f5f4f6;
+    background-image: linear-gradient(80deg, #67B26F 0%, #4ca2cd 100%);
 }
 .card{
     max-width: 370px;
